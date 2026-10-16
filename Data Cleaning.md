@@ -33,6 +33,7 @@ The Python script (`clean_data.py`) performs the following operations:
 - Identifies all text-based (`object`) columns.
 - Strips whitespace, converts text to Title Case (e.g., "MALE" -> "M"), and fills missing values with "Unknown".
 - Standardizes specific columns (e.g., converting "Male" and "Female" to "M" and "F" in the `Gender` column).
+- Standardizes specific columns (converting Not Entering to Not Registered, and First time entering, Entering and Transfer to Registering).
 - Standardizes `Post Graduate` values into consistent "Yes"/"No" formats.
 
 ### 5. Deduplication
